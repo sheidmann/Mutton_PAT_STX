@@ -5,7 +5,7 @@ This study is not yet published.
 **Authors:** Sarah L. Heidmann, Richard S. Nemeth, Barbara L. Kojis, Christopher R. Biggs, Sonaljit Mukherjee\
 Corresponding author: SL Heidmann, sarah.heidmann\@uvi.edu
 
-**Abstract**\
+**Abstract**
 
 Keywords: spawning aggregation, protected area, acoustic telemetry, US Virgin Islands, movement ecology, Lutjanidae, *Lutjanus analis*, fisheries management
 

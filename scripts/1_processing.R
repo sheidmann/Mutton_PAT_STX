@@ -2,7 +2,7 @@
 
 # Sarah Heidmann
 # Created 9 Oct 2018
-# Last modified 12 May 2021
+# Last modified 13 May 2021
 
 # Summary:
 # Data inputs:
@@ -70,7 +70,8 @@ msx_ls_proc <- lapply(msx_ls, delStat)
 ##### Split date #####
 splitDate <- function(dataset){
    dataset <- dataset %>%
-      mutate(date = date(detection_time_ast), 
+      mutate(year = year(detection_time_ast),
+             date = date(detection_time_ast), 
              hour = hour(detection_time_ast), 
              min = minute(detection_time_ast),
              sec = second(detection_time_ast))

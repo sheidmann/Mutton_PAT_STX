@@ -50,6 +50,7 @@ reduceDays <- function(dataset){
 #test <- reduceDays(msx_ls[[1]])
 DAFMrange_ls <- lapply(msx_ls, reduceDays)
 
+# Combine and summarize across fish
 DAFMrange <- bind_rows(DAFMrange_ls)
 
 DAFMrangesum <- DAFMrange %>% 

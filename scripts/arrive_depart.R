@@ -2,7 +2,7 @@
 
 # Sarah Heidmann
 # Created 29 Aug 2022
-# Last modified 29 Aug 2022
+# Last modified 28 Oct 2022
 
 # Looking at when mutton arrive and depart the array over time
 # Recreating Feeley et al. 2018 Fig 4
@@ -60,6 +60,10 @@ DAFMrangesum <- DAFMrange %>%
              sdarrive = sd(arrival), sddepart = sd(departure),
              .groups="drop") %>% 
    mutate(semarrive = sdarrive / sqrt(n), semdepart = sddepart / sqrt(n))
+
+# Export for Rick
+write_csv(DAFMrange, "outputs/arrive_depart_full.csv")
+write_csv(DAFMrangesum, "outputs/arrive_depart_summary.csv")
 
 ##### Make the plot #####
 ggplot(data= DAFMrangesum) +

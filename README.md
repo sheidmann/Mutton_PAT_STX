@@ -16,4 +16,10 @@ Note: these scripts rely heavily on the tidyverse.
 - *2_cutting.R* - trims datasets of behavioral abnormalities
 - *3_binning.R* - bins detections into 30-min periods
 - *transum.R* - creates a detection summary table
-- *currents.R* - summarizes current direction in relation to movement
+- *summarystats.R* - calculates some summary statistics (Fig 2)
+- *scrfa.R* - summarizes population statuses from Science and Conservation of Fish Aggregations database
+- *tampo.R* - looks at detection data from Tampo
+- *arrive_depart.R* - looks at when fish arrived and departed the array relative to DAFM (Fig 3)
+- *elect_msx.R* - Chesson electivity index analyses (Fig 4)
+- *depth.R* - looks at the depth data from the 2 fish with pressure tags
+- *longbyhour.R* - summarizes fish movement direction in relation to current (Figs 7 & 8)

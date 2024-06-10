@@ -2,7 +2,7 @@
 
 # Sarah Heidmann
 # Created 16 Jan 2020
-# Last modified J31 Mar 2023
+# Last modified 31 Mar 2023
 
 # Taking data from the Science and Conservation of Fish Aggregations database
 # https://www.scrfa.org/database/Search-Results.php

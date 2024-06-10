@@ -41,4 +41,5 @@ vignettes/*.pdf
 
 data/
 outputs/
+scripts/test_scripts/
 .DS_Store

@@ -1,11 +1,12 @@
-This study is not yet published.
+This study has been accepted for publication by Marine Ecology Progress Series.
 
-**Study:** Spatiotemporal movements of mutton snapper, *Lutjanus analis*, at a spawning aggregation site in the US Virgin Islands
+**Study:** Diel movements, space use and efficacy of a seasonal closed area for management of a *Lutjanus analis* spawning aggregation site
 
-**Authors:** Sarah L. Heidmann, Richard S. Nemeth, Barbara L. Kojis, Christopher R. Biggs, Sonaljit Mukherjee\
+**Authors:** Sarah L. Heidmann, Richard S. Nemeth, Christopher R. Biggs, Elizabeth Kadison, Ashley Ruffo, Barbara L. Kojis\
 Corresponding author: SL Heidmann, sarah.heidmann\@uvi.edu
 
 **Abstract**
+Designing place-based management for species that reproduce in transient fish spawning aggregations (FSA) requires knowledge of movements and space use around aggregation sites. We examined the efficacy of the Mutton Snapper Seasonal Closed Area (MSSCA) in St. Croix, United States Virgin Islands, in protecting *Lutjanus analis* from fishing during the spawning season. We used acoustic telemetry to identify the spatial and temporal patterns of movement of 24 mutton snapper over three spawning seasons. *L. analis* aggregated from March to July with peak abundance during April, May, and June. Unlike its congeners, which spawn at sunset, *L. analis* spawns in the early afternoon in the USVI. We were able to determine that *L. analis* used the MSSCA as a staging area during nighttime hours, but migrated daily outside the MSSCA for spawning. We also used data from an acoustic Doppler current profiler to examine the relationship between fish movements and coastal current patterns.  Fish migrated west in the morning with the prevailing current, occupied the presumed spawning site at slack tide, then migrated east, again with the prevailing current, back to the MSSCA. We noted that chronic poaching was highly prevalent during the spawning season, reducing the effectiveness of the MSSCA and market closure. In light of our findings, to improve management of the *L. analis* FSA we recommend reevaluating the MSSCA boundaries and timing, improving enforcement, and engaging fishers and the community through co-management efforts. Pro-active management is of particular importance since this may be the only *L. analis* FSA site on St. Croix.
 
 Keywords: spawning aggregation, protected area, acoustic telemetry, US Virgin Islands, movement ecology, Lutjanidae, *Lutjanus analis*, fisheries management
 

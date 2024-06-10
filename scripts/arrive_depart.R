@@ -2,22 +2,24 @@
 
 # Sarah Heidmann
 # Created 29 Aug 2022
-# Last modified 28 Oct 2022
+# Last modified 3 Apr 2024
 
 # Looking at when mutton arrive and depart the array over time
 # Recreating Feeley et al. 2018 Fig 4
+# This script creates Figure 3 of the manuscript
 
 # Summary:
 # Data inputs:
 #     - STX mutton snapper acoustic data: 3_cut
 # Actions:
-#     - recreates Feeley et al. 2018 Fig 4
+#     - recreates Feeley et al. 2018 Fig 4 (our Figure 3)
 # Data exports:
 #     - plot
 
 # Load libraries
 library(tidyverse)
 library(lubridate)
+library(ggpubr)
 
 ##### Import data #####
 sourcePath <- "data/3_cut/" # determine data location
@@ -62,11 +64,11 @@ DAFMrangesum <- DAFMrange %>%
    mutate(semarrive = sdarrive / sqrt(n), semdepart = sddepart / sqrt(n))
 
 # Export for Rick
-write_csv(DAFMrange, "outputs/arrive_depart_full.csv")
-write_csv(DAFMrangesum, "outputs/arrive_depart_summary.csv")
+# write_csv(DAFMrange, "outputs/arrive_depart_full.csv")
+# write_csv(DAFMrangesum, "outputs/arrive_depart_summary.csv")
 
 ##### Make the plot #####
-ggplot(data= DAFMrangesum) +
+arrdep_figure <- ggplot(data= DAFMrangesum) +
    geom_point(aes(x=moondate, y=meanarrive), 
               color = "black", shape = 16, size = 3) +
    geom_errorbar(aes(x=moondate, 
@@ -80,4 +82,7 @@ ggplot(data= DAFMrangesum) +
    scale_y_continuous(name = "Days After the Full Moon", 
                       limits =c(-2,12), breaks=seq(-2,12,2)) +
    theme(panel.background = element_blank(), axis.line = element_line())
-ggsave("outputs/Arrive_Depart_FeeleyFig4.jpeg")
+arrdep_figure
+#ggsave("outputs/Arrive_Depart_FeeleyFig4.jpeg")
+# ggexport(arrdep_figure, filename = "outputs/Fig3_arrivedepart_20240403.tiff",
+#          res=300, width=2300,height=1500)
